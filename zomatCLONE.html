@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+    <link rel="icon" href="https://logodownload.org/wp-content/uploads/2020/02/zomato-logo-1.png">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <!-- font awesome -->
+  
+    
+    <!-- ********************* -->
+    <style>
+        *{
+  box-sizing: border-box;
+}
+body{
+    margin:0;
+    width: 100%;
+    
+    
+}
+.container{
+    width:83% ;
+    margin: auto;
+}
+.header{
+    position: relative;
+}
+.image-container{
+position: relative;
+width: 100%;   
+height: 420px;
+overflow: hidden;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+object-fit: cover;
+transform: scale(1.1);
+}
+.header-body-section{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.nav{
+    
+    color: white;
+    height: 50px;
+}
+.container-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logocontainer{
+    display: flex;
+    align-items: center;
+}
+.logocontainer p{
+    padding: 5px;
+}
+.nav ul{
+list-style: none;
+display: flex;
+}
+.nav ul li a{
+    padding: opx 3px;
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: 100;
+}
+.nav ul li a{
+    color: inherit;
+    text-decoration: none;
+}
+.zomato-logo{
+    width: 400px;
+
+}
+.container-header-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+flex-direction: column;
+
+}
+.header-body-container{
+    position: relative;
+    top: -50px;
+}
+.header-body-section-discover{
+    font-size: 40px;
+    color: white;
+    margin: 25px;
+}
+.search-container{
+    background-color: white;
+    width: 100%;
+    height: 55px;
+    max-width: 750px;
+    border-radius: 10px;
+    display: flex;
+    align-items: end;
+    padding: 5px;
+}
+.location-map{
+color: rgb(231, 61, 61);
+font-size: 22px;
+}
+.caret-up{
+    color:black;
+}
+.detectionlocation input{
+border: none;
+font-size: 15px;
+width: 190px;
+}
+.search-item{
+    color: rgb(83, 79, 79);
+    font-size: 18x;
+}
+.line{
+    padding: 7px;
+}
+.search-item input{
+    
+    max-width: 100%;
+width: 300px;
+font-size: 18px;
+border: none;
+padding: 5 10px;
+outline: none;
+}
+.section-1{
+    margin: 40px;
+}
+.container-feature{
+    display: flex;
+    justify-content: space-between;
+}
+.features{
+    overflow: hidden;
+    border-radius: 20px;
+    border: 0.1px solid rgb(128, 125, 125);
+}
+.feature-image{
+    width: 350px;
+    height: 200px;
+    overflow: hidden;
+}
+.feature-image img{
+    width: 100%;
+    background-position: 100px;
+}
+.features h3,
+.features p{
+    padding: 20px;
+}.features:hover{
+    transition: transform 0.5s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+    </style>
+
+    <!-- ************************************ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class=" image-container">
+            <img src=" https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png">
+
+        </div>
+        <div class="header-body-section">
+            <nav class="nav">
+                <div class="container-container-nav">
+                    <div class="logocontainer">
+            <p> Get the App</p>
+                    </div>
+                    <ul>
+                        <li> <a href="investor"> Investor relations</a></li>
+                        <li><a href="restaurant"> Add restaurant</a></li>
+                        <li><a href="Log in"> log in</a></li>
+                        <li><a href=" Sign up"> Sign up</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header-body-container">
+                <div class="container container-header-body">
+                <img  class="zomato-logo" src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png" alt="">
+
+                <p class="header-body-section-discover">Find the best restaurants, cafés and bars in India</p>
+                <div class="search-container">
+                    <div class="detectionlocation">
+                        <i class="fa-sharp fa-solid fa-location-dot location-map"></i>
+                        <input type="text" placeholder="Mumbai"/>
+                        <i class="fa-solid fa-caret-down caret-up"></i>
+                    </div>
+                    <div class="line"> |</div>
+                    <div class="search-item">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="search for restaurant,cuisine or a dish">
+                    </div>
+
+                </div>
+            </div>
+    
+        </div>
+          
+    </header>
+    <section class="section-1">
+    <div class="container container-feature">
+        <div class="features">
+            <div class="feature-image">
+                <img src="https://th.bing.com/th/id/OIP.FMHsuYTlQlgMTF8aTELX_gHaE2?w=274&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+             </div>
+            <h3> order onine</h3>
+            <p>stay home nad order to your dooorstep</p>
+        </div>
+        <div class="features">
+            <div class="feature-image">
+              <img src="https://th.bing.com/th/id/OIP.poAldPSIrrqVgz57rQ9whAHaE8?w=282&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+            </div>
+            <h3> Dining</h3>
+            <p>View the city`s favourite dining venues</p>
+        </div>
+        <div class="features">
+            <div class="feature-image">
+                <img src="https://th.bing.com/th/id/OIP.x-39i3tsgeuFHIsDmndlIAHaE8?w=272&h=181&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="">
+            </div>
+            <h3> nightlife and Clubs</h3>
+            <p>Explore the city`s top nightlife outlets</p>
+        </div>
+    </div>
+    </section>
+    
+</body>
+</html>
